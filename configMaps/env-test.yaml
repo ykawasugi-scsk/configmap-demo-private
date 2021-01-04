@@ -3,6 +3,7 @@ apiVersion: v1
 metadata:
   name: envfrom-test
 data:
+  keyword: helloworld
   URL: myurl
   USERNAME: myuser1000
   PASSWORD: myp@ssworddddd
