@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: envfrom-test
+data:
+  URL: myurl
+  USERNAME: myuser
+  PASSWORD: mypassword
