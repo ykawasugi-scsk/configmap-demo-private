@@ -15,8 +15,8 @@ spec:
         app: front
     spec:
       containers:
-      - name: nginx
-        image: nginx:latest
+      - name: alpine
+        image: alpine
         envFrom: 
         - configMapRef:
             name: envfrom-test
