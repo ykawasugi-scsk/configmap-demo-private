@@ -17,3 +17,14 @@ spec:
       containers:
       - name: nginx
         image: nginx:latest
+        envFrom: 
+          - configMapRef:
+              name: envfrom-test
+            prefix: MY_PREFIX_    
+          volumeMounts:
+            - name: test-conf
+              mountPath: /test/config
+      volumes:
+        - name: test-conf
+          configMap:
+            name: config-file
