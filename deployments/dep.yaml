@@ -15,8 +15,8 @@ spec:
         app: front
     spec:
       containers:
-      - name: alpine
-        image: alpine
+      - name: redis
+        image: redis:alpine
         envFrom: 
         - configMapRef:
             name: envfrom-test
