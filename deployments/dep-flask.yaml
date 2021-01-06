@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: busybox:latest #backend-k8s-hands-on:v3 
+        image: busybox #backend-k8s-hands-on:v3 
         securityContext:
           runAsUser: 0
