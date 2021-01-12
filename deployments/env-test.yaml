@@ -4,5 +4,5 @@ metadata:
   name: envfrom-test
 data:
   URL: myurl
-  USERNAME: myuser0001
+  USERNAME: myuser
   PASSWORD: myp@ssword
