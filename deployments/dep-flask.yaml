@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: redis:alpine
+        image: redis:alpine100
