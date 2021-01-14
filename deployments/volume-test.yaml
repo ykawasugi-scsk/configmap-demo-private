@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: config-file
+  name: config-file1
 data:
   test.conf: |
     test=test
