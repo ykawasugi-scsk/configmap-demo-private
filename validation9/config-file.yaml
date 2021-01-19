@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: config-file
   annotations:
- #   argocd.argoproj.io/hook: PreSync
+    argocd.argoproj.io/hook: PreSync
 data:
   test.conf: |
     test=test
