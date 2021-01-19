@@ -2,6 +2,8 @@ kind: ConfigMap
 apiVersion: v1
 metadata:
   name: envfrom-test
+  annotations:
+    argocd.argoproj.io/hook: PostSync
 data:
   URL: myurl
   USERNAME: myuser
