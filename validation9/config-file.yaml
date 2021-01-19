@@ -5,4 +5,4 @@ metadata:
 data:
   test.conf: |
     test=test
-    
+    name=valadation9
