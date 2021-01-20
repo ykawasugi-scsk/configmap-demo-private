@@ -3,8 +3,8 @@ kind: ConfigMap
 metadata:
   name: config-file
   annotations:
-    argocd.argoproj.io/sync-wave: "1"
+    argocd.argoproj.io/hook: PreSync
 data:
   test.conf: |
     test=test
-    name=valadation9
+    name=validation9
