@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: deployment-test
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-wave: ""
   labels:
     app: front
 spec:
