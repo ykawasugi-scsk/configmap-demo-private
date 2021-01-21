@@ -19,10 +19,10 @@ spec:
       containers:
       - name: redis
         image: redis:alpine
-#        envFrom: 
-#        - configMapRef:
-#            name: envfrom-test
-#          prefix: MY_PREFIX_    
+        envFrom: 
+        - configMapRef:
+            name: envfrom-test
+          prefix: MY_PREFIX_    
         volumeMounts:
           - name: test-conf
             mountPath: /test/config
