@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:alpine100
+        image: redis:alpine
         envFrom: 
         - configMapRef:
             name: envfrom-test
