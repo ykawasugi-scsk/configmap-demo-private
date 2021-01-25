@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   annotations:
     argocd.argoproj.io/hook: SyncFail
+    argocd.argoproj.io/hook-delete-policy: HookFailed
   name: pod-test
   labels:
     app: pod-test
