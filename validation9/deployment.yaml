@@ -1,10 +1,10 @@
-piVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: deployment-test
   annotations:
-    argocd.argoproj.io/hook: Sync
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/hook: SyncFail
+#    argocd.argoproj.io/sync-wave: "2"
   labels:
     app: front
 spec:
