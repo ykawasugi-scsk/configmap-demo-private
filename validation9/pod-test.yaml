@@ -2,7 +2,7 @@ apiVersion: v1
 kind: pPod
 Mmetadata:
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-wave: "3"
   name: pod-test
   labels:
     app: pod-test
