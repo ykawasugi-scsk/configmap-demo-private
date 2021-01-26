@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+Mmetadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
+  name: fail-test
+  labels:
+    app: fail-test
+spec:
+  containers:
+  - name: failapp
+    image: redis:alpine
