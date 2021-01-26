@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 Mmetadata:
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/hook: SyncFail
   name: fail-test
   labels:
     app: fail-test
